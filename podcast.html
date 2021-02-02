@@ -1,43 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en">
+  <head>
+    <title>Blog</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lalezar&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-<title>podcast</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
-
-.flex-container {
-          display: flex;
-          padding-top: 200px;
-    
-        }
-        .imag {
-            background-color: thistle;
-        }
-        
-</style>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!--- basic page needs
     ================================================== -->
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>contact</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
     <!-- mobile specific metas
     ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/pages.css" />
 
     <!-- script
     ================================================== -->
@@ -46,87 +39,188 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    
-</head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
 
-<body class="main">
-
+  <body>
+    <!-- header
+    ================================================== -->
     <header class="s-header">
+      <div class="header-logo">
+        <a class="site-logo" href="index.html">
+          <img src="images/logo.svg" alt="Homepage" />
+        </a>
+      </div>
+      <!-- end header-logo -->
 
-        <div class="header-logo">
-            <a class="site-logo" href="index.html">
-                <img src="images/logo.svg" alt="Homepage">
-            </a>
-        </div> <!-- end header-logo -->
+      <div>
+        <nav class="header-nav">
+          <a href="#0" class="header-nav__close" title="close"
+            ><span>Close</span></a
+          >
 
-        <div>
-            <nav class="header-nav">
-    
-                <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
-    
-                <div class="header-nav__content">
-                    <h3>Playstories Canada</h3>
-                    
-    
-                    <ul class="header-nav__list">
-                        <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                        <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                        <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
-                        <!-- <li><a class="smoothscroll"  href="#works" title="works">Works</a></li> -->
-                        <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
-                    </ul>
-    
-                    <!-- <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p> -->
-    
-                    <ul class="header-nav__social">
-                        <li>
-                            <a href="https://www.facebook.com/Playstories-Canada-102454921863926"><i class="fab fa-facebook"></i></a>
-                        </li>
-                        
-                        <li>
-                            <a href="https://twitter.com/PlaystoriesC"><i class="fab fa-twitter"></i></a>
-                        </li> 
-                        <li>
-                            <a href="https://www.linkedin.com/company/playstories-canada/"><i class="fab fa-linkedin"></i></a>
-                        </li> 
-                        <!-- <li>
-                            <a href="#0"><i class="fab fa-behance"></i></a>
-                        </li> -->
-                        <!-- <li>
-                            <a href="#0"><i class="fab fa-dribbble"></i></a>
-                        </li> -->
-                    </ul>
-    
-                </div> <!-- end header-nav__content -->
-    
-            </nav> <!-- end header-nav -->
-    </div>
-            <a class="header-menu-toggle" href="#0">
-                <span class="header-menu-icon"></span>
-            </a>
+          <div class="header-nav__content">
+            <h3>Playstories Canada</h3>
 
-    </header> <!-- end s-header -->
+            <ul class="header-nav__list">
+              <li class="current">
+                <a href="index.html#home" title="home">Home</a>
+              </li>
+              <li><a href="index.html#about" title="about">About</a></li>
+              <li><a href="Services.html" title="services">Services</a></li>
+              <li><a href="index.html#contact" title="contact">Contact</a></li>
+            </ul>
 
+            <ul class="header-nav__social">
+              <li>
+                <a
+                  href="https://www.facebook.com/Playstories-Canada-102454921863926"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+              </li>
 
-<div  class="flex-container"   style="align-self: center">
-    <img src="images/podcast.jpg" class="w3-border" alt="Norway">
-</div>
-    
+              <li>
+                <a href="https://twitter.com/PlaystoriesC"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/playstories-canada/"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <!-- end header-nav__content -->
+        </nav>
+        <!-- end header-nav -->
+      </div>
+      <a class="header-menu-toggle" href="#0">
+        <span class="header-menu-icon"></span>
+      </a>
+    </header>
+    <!-- end s-header -->
 
+    <!-- home
+    ================================================== -->
+    <section
+      id="home"
+      class="s-home target-section"
+      data-parallax="scroll"
+      data-image-src="images/podcastbg.jpg"
+      data-natural-width="1000"
+      data-natural-height="500"
+      data-position-y="top"
+    >
+      <div class="home-content">
+        <div data-aos="fade-up" class="headpad">
+          <h1 class="display-1 display-1--light">Podcast</h1>
+          <div class="col-full-con">
+            <h2 class="subhead subhead--light" style="margin-left: 2rem">
+              Want to what is the inside of my process sounds like?
+            </h2>
+          </div>
+        </div>
+        <!-- end section-header -->
 
-            
-<script>
-// Script to open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-}
- 
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
+        <div class="w3-content">
+          <div class="w3-row w3-margin w3-card podcast_card_size">
+            <div class="w3-third">
+              <img src="images/meta.jpg" class="podcast_image_size" />
+            </div>
+            <div class="w3-twothird w3-container">
+              <video controls name="media">
+                <source src="audio/Episode263.mp3" type="audio/mp3" />
+              </video>
 
-</body>
+              <h2>Metatopia 2019</h2>
+              <p>
+                Are you an educator wanting to gamify your classroom? Are you
+                building a traditional education game? Do you want your game to
+                be fun but also teach the players about something? This is where
+                we can discuss ideas, workflows, deployments and examples of
+                games in education, gamification in the classroom or building
+                games that teach.
+              </p>
+            </div>
+          </div>
+
+          <div class="w3-row w3-margin w3-card podcast_card_size">
+            <div class="w3-third">
+              <img src="images/hero-bg.jpg" class="podcast_image_size" />
+            </div>
+            <div class="w3-twothird w3-container">
+              <video controls name="media">
+                <source
+                  src="https://stcpress.org/miscellaneous/of_all_the_birds/of_all_the_birds.mp3"
+                  type="audio/mp3"
+                />
+              </video>
+              <h2>Episode 2</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+
+          <div class="w3-row w3-margin w3-card podcast_card_size">
+            <div class="w3-third">
+              <img src="images/hero-bg.jpg" class="podcast_image_size" />
+            </div>
+            <div class="w3-twothird w3-container">
+              <video controls name="media">
+                <source
+                  src="http://www.cpdl.org/wiki/images/2/26/Hetl-agn.mp3"
+                  type="audio/mp3"
+                />
+              </video>
+              <h2>Episode 3</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+
+          <div class="w3-row w3-center" style="margin-top: 5rem">
+            <h3 class="subhead subhead--light">Follow Us</h3>
+
+            <ul class="contact-social">
+              <li>
+                <a
+                  href="https://www.facebook.com/Playstories-Canada-102454921863926"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/PlaystoriesC"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/playstories-canada/"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+            <!-- end contact-social --><!-- end contact-subscribe -->
+          </div>
+          <!-- end contact-secondary -->
+        </div>
+      </div>
+    </section>
+    <!-- end s-home -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

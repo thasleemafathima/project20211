@@ -1,0 +1,81 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lalezar", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+.blog_card_size_left {
+  width: 315px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 25px;
+  margin-left: 28rem;
+}
+.blog_card_size {
+  width: 315px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 25px;
+}
+.blog_image_size {
+  width: 100%;
+  border-radius: 25px;
+  padding: 1rem 1rem 1rem;
+}
+.w3-bar-block .w3-bar-item {
+  padding: 20px;
+}
+.podcast_card_size {
+  background: #c0c0c0;
+  border-radius: 25px;
+}
+.podcast_image_size {
+  width: 100%;
+  min-height: 200px;
+  border-radius: 25px;
+  padding: 1rem 1rem 1rem;
+}
+.serv_card_size_left {
+  width: 500px;
+  margin-left: 27rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 25px;
+  background-color: #c0c0c0;
+}
+.serv_card_size {
+  width: 500px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 25px;
+  background-color: #c0c0c0;
+}
+.serv_image_size {
+  width: 30%;
+  border-radius: 25px;
+  margin-top: 2rem;
+}
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  margin: 15rem 40rem 10rem 40rem;
+  background-color: transparent;
+}
+
+.subheading {
+  text-overflow: ellipsis;
+  max-width: 1000px;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  margin: 50px;
+  padding: 50px;
+  font-size: 60px;
+}
